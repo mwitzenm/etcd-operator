@@ -1,4 +1,7 @@
 ```
+### Create the etcd-test project ( if you change this name you will need to modify the role binding )
+oc new-project etcd-test 
+
 ### Create the operator crd
 oc create -f etcd-operator-crd.yaml
 
